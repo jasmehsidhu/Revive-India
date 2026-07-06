@@ -679,4 +679,21 @@ iframe{
 #gallery{
   height:1600px
 }
+#copyright{
+  font-size: 10px;
+}
+#first{
+  gap:20px
+}
+#footer{
+  padding:10px
+}
+#socials>img{
+  height:20px;
+  width:20px
+}
+#first>img{
+  height:35px;
+  width:35px
+}
 }
