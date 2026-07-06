@@ -556,7 +556,7 @@ align-items: center;
   flex-direction: column;
  }
  #values{
-  height:2500px
+  height:2100px
  }
  #stitle{
   font-size: 40px;
@@ -653,7 +653,7 @@ align-items: center;
   height:2600px;
 }
 #team>h1{
-  font-size: 39px;
+  font-size: 33px;
 }
 #form{
   flex-direction: column;
@@ -696,4 +696,5 @@ iframe{
   height:35px;
   width:35px
 }
+
 }
