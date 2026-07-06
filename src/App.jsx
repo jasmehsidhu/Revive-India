@@ -74,27 +74,27 @@ function App() {
      <div id='vlist'>
       <div id='v'>
         <img src={edu}></img>
-        <p>We don't wait for a change, we act today for a better India</p>
+        <p>Empowering young minds through knowledge, guidance, and opportunity.</p>
       </div>
         <div id='v'>
         <img src={com}></img>
-        <p>We take responsibility for our surroundings and future.</p>
+        <p>Building stronger, united communities through compassion and collective action.</p>
       </div>
         <div id='v'>
         <img src={env}></img>
-        <p>We respect people, places and nature. Every individual, every impact.</p>
+        <p>Protecting nature and creating cleaner, healthier communities.</p>
       </div>
         <div id='v'>
         <img src={her}></img>
-        <p>Small Steps everyday create big and lasting change</p>
+        <p>Preserving India’s rich culture, traditions, and historical legacy for future generations.</p>
       </div>
         <div id='v'>
         <img src={serve}></img>
-        <p>Together we can acheive more and revive our India</p>
+        <p>Serving people with humility, kindness, and a commitment to meaningful change.</p>
       </div>
        <div id='v'>
         <img src={well}></img>
-        <p>Together we can acheive more and revive our India</p>
+        <p>Promoting physical, mental, and emotional wellness through healthy living and mindfulness.</p>
       </div>
       
      </div>
