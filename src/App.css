@@ -1,0 +1,682 @@
+
+/* Navbar */
+#navbar{
+height:110px;
+background-color: black;
+display: flex;
+padding:10px;
+padding-right:50px;
+padding-left:25px;
+align-items: center;
+justify-content: space-between;
+}
+#joinus{
+  height:35px;
+  width:125px;
+  background: white;
+    font-family: "Bungee", sans-serif;
+  transition: background-color 0.5s ease;
+  color:black
+}
+#joinus:hover{
+  background:none;
+  border:2px solid white;
+  color:white
+}
+#logo{
+  height:80px;
+  width:80px;
+  border-radius: 15px;
+}
+#links{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+#links>a{
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+  font-family: "Bungee", sans-serif;
+  transition: transform 0.5s ease;
+}
+#links>a:hover{
+  transform: scale(1.1);
+  color:#e57302
+}
+/* Front */
+#front{
+  height:600px;
+  background:linear-gradient(
+    to  right,
+    black 0%,
+    rgba(0,0,0,0.7) 40%,
+   rgba(0,0,0,0.5) 50%,
+   rgba(0,0,0,0.3) 70%,
+     transparent 100%
+  ),
+  linear-gradient(
+    to bottom,
+     transparent 90%,
+     black 100%
+  ),
+  url('./assets/hero_front.png');
+  padding-left:160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slogan>h1{
+  margin:0;
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+    line-height: 0.9;
+    transform: rotate(-5deg);
+  font-size: 80px;
+}
+#slogan{
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+margin-top: 80px;}
+#content{
+  display: flex;
+}
+#slogan>p{
+  color:white;
+  width:400px
+}
+#slogan>p{
+  color:white;
+  width:400px;
+    font-family: 'Inter', sans-serif;
+}
+#joinus2{
+  height:40px;
+  width:180px;
+  background:none;
+  color:white;
+  font-family: "Bungee", sans-serif;
+  border:2px solid white;
+  transition: background-color 0.5s ease;
+}
+#joinus2:hover{
+  color:black;
+  background-color: #fff;
+}
+#lm{
+  height:40px;
+  width:120px;
+  background-color:#e57302;
+  color:white;
+  font-family: "Bungee", sans-serif;
+  border:none;
+  transition: background 0.5s ease;
+  
+}
+#lm:hover{
+  background:none;
+  border: 2px solid #e57302;
+  color:#e57302
+}
+#buttonsfront{
+  display: flex;
+  gap:20px
+}
+/* Values*/
+#values{
+  height:600px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding:20px;
+  flex-direction:column;
+  gap:30px
+}
+#stitle{
+  margin:0;
+  color:white;
+  font-size: 55px;
+  font-family:  'Permanent Marker', cursive;
+}
+#vlist{
+
+}
+#v{
+height:250px;
+width:170px;
+background-color: #181818;
+border-radius:10px;
+border:1px solid black;
+padding:30px;
+display:flex;
+flex-direction: column;
+align-items: center;
+gap:20px
+}
+#v>p{
+      font-family: 'Inter', sans-serif;
+color:white;
+font-size: 15px;
+text-align: center;
+}
+#v>img{
+  height:160px;
+  width:140px
+}
+#vlist{
+  display: flex;
+  gap:10px;
+}
+/* Imapct */
+#impact{
+  height:500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px
+}
+#i>img{
+height:180px;
+width:180px
+}
+#i{
+  display: flex;
+  align-items: center;
+  gap:30px
+}
+#i-in>h1{
+  margin:0
+}
+#i-in{
+  color:white;
+  font-size: 30px;
+        font-family: 'Inter', sans-serif;
+        line-height: 0.7;
+
+}
+#impacts{
+  display: flex;
+  gap:100px
+}
+#impact>h1{
+margin:0;
+color:white;
+  font-family:  'Permanent Marker', cursive;
+font-size: 50px;
+}
+/* Mission*/
+#mission{
+  height:500px;
+  background:linear-gradient(
+    to right,
+    black 0%,
+    rgba(0,0,0,0.7) 40%,
+   rgba(0,0,0,0.5) 50%,
+   rgba(0,0,0,0.3) 70%,
+     transparent 100%
+  ),
+  linear-gradient(
+    to bottom,
+     transparent 90%,
+     black 100%
+  ),
+  url('./assets/h.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left:150px;
+  display: flex;
+}
+#s2>h1{
+  margin:0;
+  transform: rotate(-5deg);
+  color:white;
+    font-family:  'Permanent Marker', cursive;
+  display:flex;
+  font-size: 90px;
+  line-height: 0.9;
+}
+#s2{
+  margin-top: 100px;
+}
+#s2>p{
+  color:white
+}
+/* Msec */
+#msec{
+  height:550px;
+  background-color: black;
+  padding:50px;
+  display: flex; 
+  justify-content: space-around;
+}
+#wants{
+  margin:0;
+  color:white;
+      font-family:  'Permanent Marker', cursive;
+  font-size:50px
+}
+#w>p{
+  color:white;
+          font-family: 'Inter', sans-serif;
+          font-size: 25px;
+  width:500px
+}
+#w{
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+#w>img{
+  height:70px;
+  width:70px
+}
+#wlist{
+  display: flex;
+  flex-direction: column;
+  gap:15px
+}
+#left{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: center;
+}
+#right{
+    display: flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: center;
+}
+#mdis{
+  color:white;
+            font-family: 'Inter', sans-serif;
+  width:400px;
+  font-size: 20px;
+
+}
+#right>#wlist>#w>p{
+  width:200px
+}
+#right>#wlist>#w{
+  gap:20px
+}
+#promise{
+  height:600px;
+  background-color: black;
+  padding:50px
+}
+/* Promise */
+#ptitle{
+  margin:0;
+  color:white;
+  font-family:  'Permanent Marker', cursive;
+  font-size: 50px;
+}
+#promise{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px
+}
+#p{
+  height:375px;
+  width:350px;
+  background-color: #181818;
+  border-radius: 10px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px
+}
+#p>p{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+
+}
+#plist{
+  display: flex;
+  gap:100px
+}
+#p>img{
+  height:200px;
+  width:200px
+}
+/* Gallery */
+#gallery{
+  height:850px;
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px;
+  padding:50px
+}
+#gtitle{
+  margin:0;
+  font-family:  'Permanent Marker', cursive;
+  color:#e57302;
+  font-size: 50px;
+}
+#glist>img{
+  height:300px;
+  width:400px;
+  transition: transform 0.5s ease
+}
+#glist>img:hover{
+  transform: scale(1.1);
+}
+#glist{
+  flex-wrap: wrap;
+  display: flex;
+  gap:30px
+}
+/* team */
+#team{
+  height:1200px;
+  background-color: black;
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  align-items: center;
+}
+#ts{
+margin:0;
+color:white;
+font-family:  'Permanent Marker', cursive;
+font-size: 55px;
+}
+#t{
+    background-color: #181818;
+    height:350px;
+    width:300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    font-family: 'Inter', sans-serif;
+    gap:30px
+
+}
+#t>img{
+height:170px;
+width:170px;
+border-radius: 50%;
+}
+#creds{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:0
+}
+#role{
+  color:#e57302
+}
+#tlist{
+  display: flex;
+  gap:100px
+}
+#name{
+  color:grey
+}
+/*form*/
+#form{
+  height:700px;
+  background-color: black;
+    padding:50px;
+  padding-left:150px;
+  display: flex;
+  justify-content: space-around;
+}
+#ft{
+margin:0;
+color:white;
+font-size:60px;
+font-family:  'Permanent Marker', cursive;
+line-height: 0.9;
+}
+#pre>p{
+  color:white
+}
+#pre>p{
+    font-family: 'Inter', sans-serif;
+    font-size:px;
+    width:400px;
+    margin-top: 30px;
+}
+#form{
+  display: flex;
+}
+#pre{
+  margin-top: 100px;
+}
+#change{
+  height:40px;
+  width:180px;
+  background-color: #fff;
+  font-family: "Bungee", sans-serif;
+  transition: background 0.5s ease;
+  margin-top:20px
+}
+#change:hover{
+  border:2px solid white;
+  color:white;
+  background:none
+}
+/*footer*/
+#footer{
+  height: 60px;
+background-color: #181818;
+padding:20px;
+display:flex;
+align-items: center;
+  justify-content: space-between;
+
+;
+}
+#socials{
+  display: flex;
+  gap:20px
+}
+#fl{
+  height:50px;
+  width:50px;
+}
+#socials>img{
+  height:30px;
+  width:30px;
+  cursor: pointer;
+}
+#first{
+  display: flex;
+  gap:100px;
+  align-items: center;
+}
+#copyright{
+  color:white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+  font-style: italic;
+
+}
+@media (max-width: 600px) {
+  #logo{
+    height:60px;
+  width:60px}
+  #links>a{
+    font-size:10px;
+  }
+  #links>button{
+    height:30px;
+    width:90px;
+    font-size: 10px;
+  }
+  #links{
+    gap:10px
+  }
+  #navbar{
+    justify-content: auto;
+    padding-right: 10px;
+    height:70px
+  }
+  #slogan>h1{
+    font-size: 50px;
+  }
+  #front{
+    padding:21px
+  }
+  #slogan>p{
+    font-size: 10px;
+    width:200px
+  }
+  #slogan{
+    gap:10px
+  }
+  #buttonsfront>button{
+    height:30px;
+    width:100px;
+    font-size:10px;
+  }
+  #buttonsfront>#joinus2{
+    height:30px;
+    width:120px;
+    font-size:8px;
+  }
+  #front{
+    height:550px;
+  }
+ #vlist{
+  flex-direction: column;
+ }
+ #values{
+  height:2500px
+ }
+ #stitle{
+  font-size: 40px;
+ }
+ #impacts{
+   flex-direction: column;
+   gap:30px
+ }
+ #i-in{
+  font-size: 20px;
+ }
+ #i>img{
+  height:100px;
+  width:100px
+ }
+#impact>h1{
+  font-size: 35px;
+}
+#mission{
+  padding-left:30px
+}
+#s2>h1{
+  font-size: 50px;
+}
+#mission{
+  height:500px;
+  background:linear-gradient(
+    to right,
+    black 0%,
+    rgba(0,0,0,0.7) 40%,
+   rgba(0,0,0,0.5) 50%,
+   rgba(0,0,0,0.3) 70%,
+     transparent 100%
+  ),
+  linear-gradient(
+    to bottom,
+     transparent 90%,
+     black 100%
+  ),
+  url('./assets/hero_mission.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+#msec{
+  display: flex;
+  flex-direction: column;
+  gap:150px;
+  height:1000px
+}
+#left>h1{
+  font-size: 30px;
+}
+#right>h1{
+  font-size: 30px;
+}
+#w>p{
+  font-size: 15px;
+  width:300px
+}
+#right>p{
+  font-size: 15px;
+  width:300px
+}
+#plist{
+  flex-direction: column;
+}
+#promise{
+  height:1500px
+}
+#p{
+  height:300px;
+  width:250px
+}
+#p>img{
+  height:180px;
+  width:180px
+}
+#promise>h1{
+  font-size: 40px;
+}
+#t{
+  height:350px;
+  width:250px
+}
+#name{
+  font-size: 28px;
+}
+#tlist{
+  flex-direction: column;
+}
+#team{
+  height:2600px;
+}
+#team>h1{
+  font-size: 39px;
+}
+#form{
+  flex-direction: column;
+  padding:10px;
+  align-items: center;
+  gap:100px;
+  height:800px
+}
+#ft{
+  font-size: 25px;
+}
+iframe{
+  width:400px
+}
+#pre>p{
+  font-size: 15px;
+  width:300px
+}
+#glist>img{
+  height:200px;
+  width:300px
+}
+#gallery{
+  height:1600px
+}
+}
