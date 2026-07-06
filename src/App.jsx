@@ -194,7 +194,7 @@ function App() {
           </div>
             <div id='p'>
             <img src={handshake}></img>
-            <p>Wel lead by an example</p>
+            <p>We will lead by an example</p>
           </div>
             <div id='p'>
             <img src={tick}></img>
