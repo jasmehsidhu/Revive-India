@@ -41,6 +41,7 @@ import insta from './assets/insta.png'
 import x from './assets/x.png'
 import email from './assets/email.png' 
 import file from './assets/file.svg'
+import qr from './assets/qr.png'
 
 function App() {
   var [face,setface]=useState('home')
@@ -268,6 +269,10 @@ function App() {
     <h1 id='ft' style={{color:'#e57302'}}>the movement</h1>
     <p>Be the part of the change, your small contribution can make a big change</p>
     <button onClick={()=>{window.open('https://docs.google.com/document/d/1bdbfqw6GVR_HvTUVwd34MU4Tc79LzpfdC4UP8fArki0/export?format=pdf')}} id='change'>Read the manifesto</button>
+    <div id='donate'>
+      <img src={qr}></img>
+      <h1 id='text'>Every donation, no matter the size, helps us continue our work and reach more people in need. Your generosity enables us to create meaningful change and build stronger communities</h1>
+    </div>
   </div>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf44m4LM81iWjebxYAAgXYns0FDQXSqrLF3fUK9I16w3mc17Q/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
    </section>
