@@ -43,7 +43,7 @@ import email from './assets/email.png'
 import file from './assets/file.svg'
 
 function App() {
-  var [face,setface]=useState('join')
+  var [face,setface]=useState('home')
   return (
     <>
    <section id='navbar'>
