@@ -153,7 +153,7 @@ function App() {
       </div>
        <div id='w'>
         <img src={up}></img>
-        <p>We want to inspire actin not converzations</p>
+        <p>We want to inspire action not converzations</p>
       </div>
     </div>
    </div>
